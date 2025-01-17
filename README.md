@@ -34,7 +34,7 @@ O banco de dados possui as seguintes tabelas principais:
 - **viagens**: Registra as viagens realizadas.
 - **motorista_viagem**: Tabela de relacionamento entre motoristas e viagens (relacionamento muitos-para-muitos).
 
-
+![dataBase](https://github.com/user-attachments/assets/86a51814-8a64-452d-a773-a5728f6ad8e9)
 
 
 ## Tecnologias Utilizadas
