@@ -1,3 +1,5 @@
 <x-layout>
-    <h1>Hello Everyone</h1>
+    <div>
+        <h1>Bem-vindo ao controle de viagens</h1>
+    </div>
 </x-layout>
