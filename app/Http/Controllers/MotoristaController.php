@@ -44,12 +44,10 @@ class MotoristaController extends Controller
         return redirect()->route('motoristas.index');
     }
 
-    public function edit(Request $request, $id)
+    public function edit($id)
     {
 
         $motorista = Motorista::findOrFail($id);
-
-
 
         return view('motoristas.edit', ["motorista" => $motorista]);
     }

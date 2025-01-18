@@ -10,7 +10,7 @@
     </div>
     <ul class="flex flex-wrap flex-gap">
         @foreach($motoristas as $motorista)
-        <x-card href="/motoristas/{{$motorista['id']}}" routeDelete="motoristas.destroy" id="{{ $motorista['id'] }}" heeader-card="{{ $motorista['nome'] }}">
+        <x-card href="/motoristas/{{$motorista['id']}}" routeDelete="motoristas.destroy" id="{{ $motorista['id'] }}" header-card="{{ $motorista['nome'] }}">
             <div class="text-white mb-8 mt-8">
                 <p>Número da CNH: {{$motorista['numero_cnh']}}</p>
                 <p>Data de Nascimento: {{ date('d/m/Y', strtotime($motorista['data_nascimento'])) }}</p>

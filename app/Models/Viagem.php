@@ -10,7 +10,10 @@ class Viagem extends Model
     protected $table = 'viagens';
 
     protected $fillable = [
-        'veiculo_id', 'km_inicial', 'km_final',
+        'veiculo_id',
+        'km_inicial',
+        'km_final',
+        'finished',
     ];
 
     public function veiculo()
