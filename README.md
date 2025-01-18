@@ -115,6 +115,9 @@ Para rodar os testes da aplicação, execute:
 ```bash
 php artisan test
 ```
+## Ao Se Fazer
+
+- [ ] Fazer com que o usuário possa editar a viagem e fazer um check para que a viagem terminou
 
 ## Contribuições
 
