@@ -48,16 +48,21 @@ O banco de dados possui as seguintes tabelas principais:
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/vinibalbino/viagens-app.git
-   cd viagens-app
+   git clone https://github.com/vinibalbino/RotaFacil.git
+   cd RotaFacil
    ```
 
 2. Instale as dependências do projeto:
    ```bash
    composer install
    ```
-
-3. Configure o arquivo `.env` com os detalhes do banco de dados:
+   
+3. Inicie o container docker da base de dados:
+   ```bash
+   docker compose up
+   ```
+   
+4. Configure o arquivo `.env` com os detalhes do banco de dados:
    ```env
    DB_CONNECTION=pgsql
    DB_HOST=127.0.0.1
